@@ -36,7 +36,7 @@ ap = set(allowedPersons)
 
 name = "NAMEPRESENCE"
 filelog = "/home/pi/yowsup/log/idontknow.log"
-filelog2 = "/home/pi/yowsup/logs/online_offline.log"
+filelog2 = "/home/pi/yowsup/log/online_offline.log"
 
 class EchoLayer(YowInterfaceLayer):
     @ProtocolEntityCallback("message")
